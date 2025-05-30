@@ -1,0 +1,31 @@
+2025-05-30 17:24:35,038 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-30 17:24:35,039 INFO: [33mPress CTRL+C to quit[0m
+2025-05-30 17:24:35,043 INFO:  * Restarting with stat
+2025-05-30 17:24:36,872 WARNING:  * Debugger is active!
+2025-05-30 17:24:36,894 INFO:  * Debugger PIN: 616-839-520
+2025-05-30 17:24:56,274 INFO: 127.0.0.1 - - [30/May/2025 17:24:56] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:24:57,061 INFO: 127.0.0.1 - - [30/May/2025 17:24:57] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:00,219 INFO: admin_form_user_created - {'name': 'Asad', 'credits': 10, 'expiry': '2025-05-30T18:25:00.211500', 'deleted': False}
+2025-05-30 17:25:00,221 INFO: 127.0.0.1 - - [30/May/2025 17:25:00] "[32mPOST /admin/create_user_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:00,233 INFO: 127.0.0.1 - - [30/May/2025 17:25:00] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:06,914 INFO: admin_form_credits_refilled - {'name': 'Asad', 'credits': 20, 'expiry': '2025-05-30T18:25:00.211500', 'deleted': False}
+2025-05-30 17:25:06,916 INFO: 127.0.0.1 - - [30/May/2025 17:25:06] "[32mPOST /admin/refill_credits_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:06,931 INFO: 127.0.0.1 - - [30/May/2025 17:25:06] "GET /admin?new_token=gAAAAABoOaOiLZfmOGk-kbkfdkg1ZfPK-tT-tUO3Zlph2EQwG2hXtRAH-H1bi2YbALu3Q3rXoDl4MB-FununI_Rrss7I_mjKTIbHtQS8Nyat65HrmHNnpjoR6yI8JGvTT0_TlRZOVvM-hzEWsGesjNtgHQGvQ6Zbs19cDL-xeVuPoBV5ToVLC03saDzVCVRkFVxDPZ0PLRBV HTTP/1.1" 200 -
+2025-05-30 17:25:11,596 INFO: 127.0.0.1 - - [30/May/2025 17:25:11] "[32mPOST /admin/check_user_status_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:11,625 INFO: 127.0.0.1 - - [30/May/2025 17:25:11] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:18,481 INFO: admin_form_user_deleted - {'token': 'gAAAAABoOaOcXdsiCxjUpvO7u-Xyvdb0cPWQiljr-EryWKtGJvP-rAYmyDJmAiR5zK1uwse_cCx6NFt3Hsku1IdIwLGJSbohgq7MZdnx3fY8biAAfpYG49Hy_p4ilveTI5sQll8iL29J7Y0knGmwuCVf-GY6jJIaNuDWZVOnXyuKkxq5CbOFbXFYf2rNlxLB5HD593S9O6EY'}
+2025-05-30 17:25:18,483 INFO: 127.0.0.1 - - [30/May/2025 17:25:18] "[32mPOST /admin/delete_user_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:18,495 INFO: 127.0.0.1 - - [30/May/2025 17:25:18] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:22,192 INFO: 127.0.0.1 - - [30/May/2025 17:25:22] "[32mPOST /admin/check_user_status_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:22,208 INFO: 127.0.0.1 - - [30/May/2025 17:25:22] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:25,450 INFO: admin_form_user_created - {'name': 'Asad', 'credits': 10, 'expiry': '2025-05-30T18:25:25.450385', 'deleted': False}
+2025-05-30 17:25:25,452 INFO: 127.0.0.1 - - [30/May/2025 17:25:25] "[32mPOST /admin/create_user_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:25,467 INFO: 127.0.0.1 - - [30/May/2025 17:25:25] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:34,990 INFO: admin_form_credits_refilled - {'name': 'Asad', 'credits': 30, 'expiry': '2025-05-30T18:25:25.450385', 'deleted': False}
+2025-05-30 17:25:34,991 INFO: 127.0.0.1 - - [30/May/2025 17:25:34] "[32mPOST /admin/refill_credits_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:35,009 INFO: 127.0.0.1 - - [30/May/2025 17:25:35] "GET /admin?new_token=gAAAAABoOaO-3ruu4moBPQAj7kvsB7v7Ehj5ZurshEgkxi8EZaDZ35IGSdsRrWey8PZTtV6ii58mknpHmX2cIWRnJNZ9a8sRT9aVmk315dzwwS37DEUZRlep9qRhsie6a6WbBaTh1Vcld3vxcLooYf06Nv443gJePPCStrwV5AaNhnsMdjk-fURF1cqPmzoRrpYFh5G14xva HTTP/1.1" 200 -
+2025-05-30 17:25:40,797 INFO: 127.0.0.1 - - [30/May/2025 17:25:40] "[32mPOST /admin/check_user_status_form HTTP/1.1[0m" 302 -
+2025-05-30 17:25:40,806 INFO: 127.0.0.1 - - [30/May/2025 17:25:40] "GET /admin HTTP/1.1" 200 -
+2025-05-30 17:25:53,619 INFO:  * Detected change in 'c:\\Users\\Atta Ul Asad\\Desktop\\Hammad\\flask api auth\\app.py', reloading
+2025-05-30 17:25:53,899 INFO:  * Restarting with stat
